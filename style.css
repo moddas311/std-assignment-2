@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input {
+    width: 30%;
+    margin-right: 5px;
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.player-cart {
+    background-color: antiquewhite;
+    width: 200px;
+    height: 460px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.title {
+    color: red;
+    font-size: 30px;
+
+}
+
+.noData {
+    align-items: center;
+    margin-top: 10%;
+}
+
+.profile-img {
+    width: 150px;
+    height: 200px;
+    padding-left: 30px;
+}
+
+.right-player {
+    color: red;
+}
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+
+    .search-field{
+        flex-direction: column;
+    }
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+}
