@@ -29,7 +29,7 @@ const searchPlayer = (value) => {
             }
             else {
                 leftContainer.innerHTML = "";
-                leftContainer.innerHTML = `<p>No data Found</p>`;
+                leftContainer.innerHTML = `<h2 class="not-found">Player Not Found!</h2>`;
             }
         })
 }

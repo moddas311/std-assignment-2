@@ -41,6 +41,11 @@
     height: 200px;
     padding-left: 30px;
 }
+.not-found{
+    color: red;
+    margin-top: 25%;
+    margin-left: 53%;
+}
 
 .right-player {
     color: red;
